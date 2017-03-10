@@ -12,6 +12,8 @@ public class Application implements WrapperListener {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class,args);
 		WrapperManager.start(new Application(),args);
+
+
 	}
 
 	@Override
